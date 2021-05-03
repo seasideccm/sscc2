@@ -2,7 +2,7 @@
 home: true
 # sidebar: 'auto'
 # Public 文件路径
-heroImage: /images/sscc.png
+heroImage: https://cdn.jsdelivr.net/gh/seasideccm/img/upload/sscc2.png
 # URL
 # heroImage: https://vuejs.org/images/logo.png
 ---
@@ -19,3 +19,4 @@ critical care 简写为 CC，意思是重症医疗。
 
 <!--<img :src="$withBase('/images/sscc.png')" alt="SSCC Logo">-->
 
+修改首页大图地址为 github 图床

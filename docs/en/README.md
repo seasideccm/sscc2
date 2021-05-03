@@ -1,7 +1,7 @@
 ---
 home: true
 # Public 文件路径
-heroImage: /images/sscc.png
+heroImage: https://cdn.jsdelivr.net/gh/seasideccm/img/upload/sscc2.png
 # URL
 # heroImage: https://vuejs.org/images/logo.png
 ---
