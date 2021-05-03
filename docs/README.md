@@ -2,7 +2,7 @@
 home: true
 # sidebar: 'auto'
 # Public 文件路径
-heroImage: https://cdn.jsdelivr.net/gh/seasideccm/img/upload/sscc2.png
+heroImage: https://cdn.jsdelivr.net/gh/seasideccm/img/upload/20210503162210.png
 # URL
 # heroImage: https://vuejs.org/images/logo.png
 ---
