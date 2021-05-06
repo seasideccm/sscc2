@@ -6,7 +6,7 @@ doi:10.1172/JCI147329
 
 <!--[View PDF ![](//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png)](https://www.jci.org/articles/view/147329/pdf)--> 
 
-<a :href="$withBase('/pdf/Long-term microstructure and cerebral blood flow changes in patients recovered from COVID-19 without neurological manifestations.pdf')">View PDF</a>  ![](//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png) 
+<a :href="$withBase('pdf/Long-term microstructure and cerebral blood flow changes in patients recovered from COVID-19 without neurological manifestations.pdf')">View PDF</a>  ![](//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png) 
 
 * * *
 
