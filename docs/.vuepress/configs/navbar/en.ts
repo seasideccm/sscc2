@@ -21,6 +21,10 @@ export const en: NavbarConfig = [
 		text: 'Respiratory',
         link: '/en/guidelines/Respiratory/',
       },
+	  {
+		text: 'CNS',
+        link: '/en/guidelines/CNS/',
+      },
     ],
   },
 

@@ -23,6 +23,30 @@ export const zh: SidebarConfig = {
       ],
      },
      ],
+
+  '/guidelines/COVID-19/': [
+     {
+   	  isGroup: true,
+      text: '新冠肺炎',
+      children: [
+        '/guidelines/COVID-19/README.md',
+        '/guidelines/COVID-19/新型冠状病毒肺炎重症危重症患者院内转运专家共识.md',
+      ],
+     },
+     ],
+
+  '/guidelines/CNS/': [
+     {
+   	  isGroup: true,
+      text: '中枢神经系统',
+      children: [
+        '/guidelines/CNS/README.md',
+        '/guidelines/CNS/神经外科中枢神经系统感染诊治中国专家共识（2021版）.md',
+      ],
+     },
+     ],
+
+	 
   '/bloodflow/': [
     {
       isGroup: true,

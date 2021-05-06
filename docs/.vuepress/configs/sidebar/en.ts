@@ -22,6 +22,27 @@ export const en: SidebarConfig = {
       ],
      },
      ],
+
+  '/en/guidelines/COVID-19/': [
+     {
+   	  isGroup: true,
+      text: 'COVID-19',
+      children: [
+        '/en/guidelines/COVID-19/README.md',
+      ],
+     },
+     ],
+
+  '/en/guidelines/CNS/': [
+     {
+   	  isGroup: true,
+      text: 'Central Nerver System',
+      children: [
+        '/en/guidelines/CNS/README.md',
+      ],
+     },
+     ],
+
   '/en/bloodflow/': [
     {
       isGroup: true,
