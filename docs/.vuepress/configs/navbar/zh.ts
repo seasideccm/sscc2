@@ -21,6 +21,10 @@ export const zh: NavbarConfig = [
 		text: '呼吸',
         link: '/guidelines/Respiratory/',
       },
+	  {
+		text: '神经',
+        link: '/guidelines/CNS/',
+      },	  
     ],
   },
 
