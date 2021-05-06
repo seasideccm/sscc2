@@ -4,26 +4,7 @@ Qin Y, Wu J, Chen T, et al. Long-term microstructure and cerebral blood flow cha
 
 doi:10.1172/JCI147329
 
-<!--[View PDF ![](//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png)](https://www.jci.org/articles/view/147329/pdf)--> 
-
-<script type="text/javascript" src="jquery-1.7.1.min.js"></script>  
-<script type="text/javascript" src="jquery.media.js"></script>
-
-<script type="text/javascript">
-       $(function() {
-           $('a.media').media({width:'100%', height:900px;});
-       });
-</script>
-
-<div class="panel-body">
-    <a class="media" :href="$withBase('pdf/Long-term microstructure and cerebral blood flow changes in patients recovered from COVID-19 without neurological manifestations.pdf')">View PDF</a>
-  <img src=//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png>
-</div>
-
-
-
-<!--<a :href="$withBase('pdf/Long-term microstructure and cerebral blood flow changes in patients recovered from COVID-19 without neurological manifestations.pdf')">View PDF</a>  ![](//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png)--> 
-
+[View PDF ![](//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png)](https://www.jci.org/articles/view/147329/pdf) 
 
 
 * * *
