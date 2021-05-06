@@ -18,7 +18,6 @@ export const en: SidebarConfig = {
       children: [
         '/en/guidelines/Cadiovascular/README.md',
         '/en/guidelines/Cadiovascular/2020 AHA  Pediatric Basic and Advanced Life Support.md',
-        '/en/guidelines/Cadiovascular/常规心电图检查操作指南(简版).md',
         '/en/guidelines/Cadiovascular/急性心肌梗死伴心源性休克的有创治疗.md',
       ],
      },
@@ -31,7 +30,7 @@ export const en: SidebarConfig = {
         '/en/bloodflow/readme.md',
 		'/en/bloodflow/blood flow.md',
         '/en/bloodflow/Regional perfusion monitoring in shock.md',
-		'/en/bloodflow/Microstructure and cerebral blood flow changes in patients recovered from COVID-19.md',
+		'/en/bloodflow/Microstructure and cerebral blood flow changes in patients recovered from COVID 19.md',
       ],
     },
 	],
