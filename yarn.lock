@@ -464,23 +464,23 @@
   resolved "https://registry.npm.taobao.org/@vue/shared/download/@vue/shared-3.0.11.tgz#20d22dd0da7d358bb21c17f9bde8628152642c77"
   integrity sha1-INIt0Np9NYuyHBf5vehigVJkLHc=
 
-"@vuepress/bundler-webpack@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/bundler-webpack/download/@vuepress/bundler-webpack-2.0.0-beta.12.tgz#26e9ac1db976094aded352dd93ed243be4cf2f7d"
-  integrity sha1-JumsHbl2CUre01Ldk+0kO+TPL30=
+"@vuepress/bundler-webpack@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/bundler-webpack/download/@vuepress/bundler-webpack-2.0.0-beta.14.tgz#0ce312f8d3d0838deb330915ea41a666c30b58b8"
+  integrity sha1-DOMS+NPQg43rMwkV6kGmZsMLWLg=
   dependencies:
     "@types/express" "^4.17.11"
     "@types/webpack-env" "^1.16.0"
     "@vue/compiler-sfc" "^3.0.11"
     "@vue/server-renderer" "^3.0.11"
     "@vuepress/client" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/shared" "2.0.0-beta.7"
     "@vuepress/utils" "2.0.0-beta.11"
     autoprefixer "^10.2.5"
     copy-webpack-plugin "^8.1.1"
     css-loader "^5.2.4"
-    esbuild-loader "~2.10.0"
+    esbuild-loader "~2.13.0"
     express "^4.17.1"
     file-loader "^6.2.0"
     html-webpack-plugin "^5.3.1"
@@ -499,17 +499,17 @@
     webpack-dev-server "4.0.0-beta.2"
     webpack-merge "^5.7.3"
 
-"@vuepress/cli@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/cli/download/@vuepress/cli-2.0.0-beta.12.tgz#a00905892037560012dc37b3895031a75296d21c"
-  integrity sha1-oAkFiSA3VgAS3DeziVAxp1KW0hw=
+"@vuepress/cli@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/cli/download/@vuepress/cli-2.0.0-beta.14.tgz#0044dbd11c48d39494f0e230488968a4b4b9dbae"
+  integrity sha1-AETb0RxI05SU8OIwSIlopLS5264=
   dependencies:
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/utils" "2.0.0-beta.11"
     cac "^6.7.3"
     chokidar "^3.5.1"
     envinfo "^7.8.1"
-    esbuild "^0.9.6"
+    esbuild "^0.11.20"
 
 "@vuepress/client@2.0.0-beta.12":
   version "2.0.0-beta.12"
@@ -532,6 +532,18 @@
     gray-matter "^4.0.3"
     toml "^3.0.0"
 
+"@vuepress/core@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/core/download/@vuepress/core-2.0.0-beta.14.tgz#f27a6d0eae04b901d2b3de89f833395075cd05bb"
+  integrity sha1-8nptDq4EuQHSs96J+DM5UHXNBbs=
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.12"
+    "@vuepress/markdown" "2.0.0-beta.13"
+    "@vuepress/shared" "2.0.0-beta.7"
+    "@vuepress/utils" "2.0.0-beta.11"
+    gray-matter "^4.0.3"
+    toml "^3.0.0"
+
 "@vuepress/markdown@2.0.0-beta.12":
   version "2.0.0-beta.12"
   resolved "https://registry.nlark.com/@vuepress/markdown/download/@vuepress/markdown-2.0.0-beta.12.tgz?cache=0&sync_timestamp=1619773890918&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress%2Fmarkdown%2Fdownload%2F%40vuepress%2Fmarkdown-2.0.0-beta.12.tgz#af60a29648a967fcdf1f15e8a4662c172c1b571d"
@@ -544,36 +556,48 @@
     markdown-it-anchor "^7.1.0"
     markdown-it-emoji "^2.0.0"
 
-"@vuepress/plugin-active-header-links@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-active-header-links/download/@vuepress/plugin-active-header-links-2.0.0-beta.12.tgz?cache=0&sync_timestamp=1619773898952&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress%2Fplugin-active-header-links%2Fdownload%2F%40vuepress%2Fplugin-active-header-links-2.0.0-beta.12.tgz#ae08d5eb801a720e9781f3f5e10bf197095a308b"
-  integrity sha1-rgjV64Aacg6XgfP14QvxlwlaMIs=
+"@vuepress/markdown@2.0.0-beta.13":
+  version "2.0.0-beta.13"
+  resolved "https://registry.nlark.com/@vuepress/markdown/download/@vuepress/markdown-2.0.0-beta.13.tgz?cache=0&sync_timestamp=1620288204024&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress%2Fmarkdown%2Fdownload%2F%40vuepress%2Fmarkdown-2.0.0-beta.13.tgz#322c275fd9e3401e9e0666cd46ccf8d6f1dfe603"
+  integrity sha1-MiwnX9njQB6eBmbNRsz41vHf5gM=
+  dependencies:
+    "@types/markdown-it" "^12.0.1"
+    "@vuepress/shared" "2.0.0-beta.7"
+    "@vuepress/utils" "2.0.0-beta.11"
+    markdown-it "^12.0.6"
+    markdown-it-anchor "^7.1.0"
+    markdown-it-emoji "^2.0.0"
+
+"@vuepress/plugin-active-header-links@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-active-header-links/download/@vuepress/plugin-active-header-links-2.0.0-beta.14.tgz#41956b44bfc14d228e0092aebcbfb5e9e621aca1"
+  integrity sha1-QZVrRL/BTSKOAJKuvL+16eYhrKE=
   dependencies:
     "@vuepress/client" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/utils" "2.0.0-beta.11"
     ts-debounce "^3.0.0"
     vue "^3.0.11"
     vue-router "^4.0.6"
 
-"@vuepress/plugin-back-to-top@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-2.0.0-beta.12.tgz#bdb776ed2db8eae37efd4eb9143deeb9e1b257e2"
-  integrity sha1-vbd27S246uN+/U65FD3uueGyV+I=
+"@vuepress/plugin-back-to-top@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-2.0.0-beta.14.tgz#c7099d30c88cad49d71c856f4899dcfdd13e974e"
+  integrity sha1-xwmdMMiMrUnXHIVvSJnc/dE+l04=
   dependencies:
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/utils" "2.0.0-beta.11"
     ts-debounce "^3.0.0"
     vue "^3.0.11"
 
-"@vuepress/plugin-container@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-container/download/@vuepress/plugin-container-2.0.0-beta.12.tgz#902a4c8549dca06d5e3fcd27e9e6df34d8e70325"
-  integrity sha1-kCpMhUncoG1eP80n6ebfNNjnAyU=
+"@vuepress/plugin-container@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-container/download/@vuepress/plugin-container-2.0.0-beta.14.tgz#7e86354adf3fa7c8b51aae1f71c578cbdd5f75f8"
+  integrity sha1-foY1St8/p8i1Gq4fccV4y91fdfg=
   dependencies:
     "@types/markdown-it" "^12.0.1"
-    "@vuepress/core" "2.0.0-beta.12"
-    "@vuepress/markdown" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
+    "@vuepress/markdown" "2.0.0-beta.13"
     "@vuepress/shared" "2.0.0-beta.7"
     "@vuepress/utils" "2.0.0-beta.11"
     markdown-it "^12.0.4"
@@ -595,52 +619,52 @@
     vue "^3.0.11"
     vue-router "^4.0.6"
 
-"@vuepress/plugin-git@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-git/download/@vuepress/plugin-git-2.0.0-beta.12.tgz#4597f87599f1480804150fe3bd750d0040447775"
-  integrity sha1-RZf4dZnxSAgEFQ/jvXUNAEBEd3U=
+"@vuepress/plugin-git@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-git/download/@vuepress/plugin-git-2.0.0-beta.14.tgz#f9b9ff5648e020995d51dcc2e0ad020d1782a2d8"
+  integrity sha1-+bn/VkjgIJldUdzC4K0CDReCotg=
   dependencies:
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     execa "^5.0.0"
 
-"@vuepress/plugin-medium-zoom@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-2.0.0-beta.12.tgz?cache=0&sync_timestamp=1619773899686&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress%2Fplugin-medium-zoom%2Fdownload%2F%40vuepress%2Fplugin-medium-zoom-2.0.0-beta.12.tgz#50b4e2cc41891ccbe07283bbe60c9fcf2594a779"
-  integrity sha1-ULTizEGJHMvgcoO75gyfzyWUp3k=
+"@vuepress/plugin-medium-zoom@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-2.0.0-beta.14.tgz#08217bbc398bb55c8facf42d2e0ae397bce77edb"
+  integrity sha1-CCF7vDmLtVyPrPQtLgrjl7znfts=
   dependencies:
     "@vuepress/client" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/utils" "2.0.0-beta.11"
     medium-zoom "^1.0.6"
     vue "^3.0.11"
 
-"@vuepress/plugin-nprogress@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-2.0.0-beta.12.tgz?cache=0&sync_timestamp=1619773029718&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress%2Fplugin-nprogress%2Fdownload%2F%40vuepress%2Fplugin-nprogress-2.0.0-beta.12.tgz#3dcac1e487b0f103ff1e8bbef8409fbb6c618186"
-  integrity sha1-PcrB5Iew8QP/Hou++ECfu2xhgYY=
+"@vuepress/plugin-nprogress@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-2.0.0-beta.14.tgz#2d598a21490e589c408cc989e248c0147d22951f"
+  integrity sha1-LVmKIUkOWJxAjMmJ4kjAFH0ilR8=
   dependencies:
     "@vuepress/client" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/utils" "2.0.0-beta.11"
     nprogress "^0.2.0"
     vue "^3.0.11"
     vue-router "^4.0.6"
 
-"@vuepress/plugin-palette@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-palette/download/@vuepress/plugin-palette-2.0.0-beta.12.tgz#cc9ce3cde8eab3b6442773d409d73a4e09abd15a"
-  integrity sha1-zJzjzejqs7ZEJ3PUCdc6Tgmr0Vo=
+"@vuepress/plugin-palette@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-palette/download/@vuepress/plugin-palette-2.0.0-beta.14.tgz#e3e7991f0bf3fbb5eea95df9f0169833234f1829"
+  integrity sha1-4+eZHwvz+7XuqV358BaYMyNPGCk=
   dependencies:
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/utils" "2.0.0-beta.11"
     chokidar "^3.5.1"
 
-"@vuepress/plugin-prismjs@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-prismjs/download/@vuepress/plugin-prismjs-2.0.0-beta.12.tgz#d4b2a8e8c7a136d4a9fe1cf2788263a7f8cdb405"
-  integrity sha1-1LKo6MehNtSp/hzyeIJjp/jNtAU=
+"@vuepress/plugin-prismjs@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-prismjs/download/@vuepress/plugin-prismjs-2.0.0-beta.14.tgz#aa81641b9a8c984c4b0ac11dd53b2dee4188709e"
+  integrity sha1-qoFkG5qMmExLCsEd1Tst7kGIcJ4=
   dependencies:
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     prismjs "^1.23.0"
 
 "@vuepress/plugin-search@^2.0.0-beta.12":
@@ -656,13 +680,13 @@
     vue "^3.0.11"
     vue-router "^4.0.6"
 
-"@vuepress/plugin-theme-data@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/plugin-theme-data/download/@vuepress/plugin-theme-data-2.0.0-beta.12.tgz#8ca8e227b2ac1fb552b49b05238008e94d7b82f5"
-  integrity sha1-jKjiJ7KsH7VStJsFI4AI6U17gvU=
+"@vuepress/plugin-theme-data@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/plugin-theme-data/download/@vuepress/plugin-theme-data-2.0.0-beta.14.tgz#7d9f7a46a97d10ace9ae11a36b5a4d40b5bb39f6"
+  integrity sha1-fZ96Rql9EKzprhGja1pNQLW7OfY=
   dependencies:
     "@vuepress/client" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
     "@vuepress/shared" "2.0.0-beta.7"
     "@vuepress/utils" "2.0.0-beta.11"
 
@@ -673,22 +697,22 @@
   dependencies:
     "@vue/shared" "^3.0.11"
 
-"@vuepress/theme-default@2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vuepress/theme-default/download/@vuepress/theme-default-2.0.0-beta.12.tgz?cache=0&sync_timestamp=1619773848469&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress%2Ftheme-default%2Fdownload%2F%40vuepress%2Ftheme-default-2.0.0-beta.12.tgz#9d09bda45e07eef1a70660d912695007af4b7ea8"
-  integrity sha1-nQm9pF4H7vGnBmDZEmlQB69Lfqg=
+"@vuepress/theme-default@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/@vuepress/theme-default/download/@vuepress/theme-default-2.0.0-beta.14.tgz#f6760f50f308ac799932625d88976dfc98c90a8a"
+  integrity sha1-9nYPUPMIrHmZMmJdiJdt/JjJCoo=
   dependencies:
     "@vuepress/client" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
-    "@vuepress/plugin-active-header-links" "2.0.0-beta.12"
-    "@vuepress/plugin-back-to-top" "2.0.0-beta.12"
-    "@vuepress/plugin-container" "2.0.0-beta.12"
-    "@vuepress/plugin-git" "2.0.0-beta.12"
-    "@vuepress/plugin-medium-zoom" "2.0.0-beta.12"
-    "@vuepress/plugin-nprogress" "2.0.0-beta.12"
-    "@vuepress/plugin-palette" "2.0.0-beta.12"
-    "@vuepress/plugin-prismjs" "2.0.0-beta.12"
-    "@vuepress/plugin-theme-data" "2.0.0-beta.12"
+    "@vuepress/core" "2.0.0-beta.14"
+    "@vuepress/plugin-active-header-links" "2.0.0-beta.14"
+    "@vuepress/plugin-back-to-top" "2.0.0-beta.14"
+    "@vuepress/plugin-container" "2.0.0-beta.14"
+    "@vuepress/plugin-git" "2.0.0-beta.14"
+    "@vuepress/plugin-medium-zoom" "2.0.0-beta.14"
+    "@vuepress/plugin-nprogress" "2.0.0-beta.14"
+    "@vuepress/plugin-palette" "2.0.0-beta.14"
+    "@vuepress/plugin-prismjs" "2.0.0-beta.14"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.14"
     "@vuepress/shared" "2.0.0-beta.7"
     "@vuepress/utils" "2.0.0-beta.11"
     sass "^1.32.11"
@@ -1665,22 +1689,23 @@ es-module-lexer@^0.4.0:
   resolved "https://registry.npm.taobao.org/es-module-lexer/download/es-module-lexer-0.4.1.tgz?cache=0&sync_timestamp=1614787418359&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fes-module-lexer%2Fdownload%2Fes-module-lexer-0.4.1.tgz#dda8c6a14d8f340a24e34331e0fab0cb50438e0e"
   integrity sha1-3ajGoU2PNAok40Mx4Pqwy1BDjg4=
 
-esbuild-loader@~2.10.0:
-  version "2.10.0"
-  resolved "https://registry.npm.taobao.org/esbuild-loader/download/esbuild-loader-2.10.0.tgz?cache=0&sync_timestamp=1618553987569&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild-loader%2Fdownload%2Fesbuild-loader-2.10.0.tgz#35b570187aee0036b2f4b37db66870f7407f3d40"
-  integrity sha1-NbVwGHruADay9LN9tmhw90B/PUA=
+esbuild-loader@~2.13.0:
+  version "2.13.1"
+  resolved "https://registry.nlark.com/esbuild-loader/download/esbuild-loader-2.13.1.tgz#9c89e654390a9a25d99b2f6d803ade30f4335418"
+  integrity sha1-nInmVDkKmiXZmy9tgDreMPQzVBg=
   dependencies:
-    esbuild "^0.9.2"
-    joycon "^2.2.5"
+    esbuild "^0.11.19"
+    joycon "^3.0.1"
     json5 "^2.2.0"
     loader-utils "^2.0.0"
-    type-fest "^0.21.3"
+    tapable "^2.2.0"
+    type-fest "^1.0.1"
     webpack-sources "^2.2.0"
 
-esbuild@^0.9.2, esbuild@^0.9.6:
-  version "0.9.7"
-  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.9.7.tgz?cache=0&sync_timestamp=1619600785036&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fesbuild%2Fdownload%2Fesbuild-0.9.7.tgz#ea0d639cbe4b88ec25fbed4d6ff00c8d788ef70b"
-  integrity sha1-6g1jnL5LiOwl++1Nb/AMjXiO9ws=
+esbuild@^0.11.19, esbuild@^0.11.20:
+  version "0.11.23"
+  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.11.23.tgz?cache=0&sync_timestamp=1621409384062&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fesbuild%2Fdownload%2Fesbuild-0.11.23.tgz#c42534f632e165120671d64db67883634333b4b8"
+  integrity sha1-xCU09jLhZRIGcdZNtniDY0MztLg=
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -2402,10 +2427,10 @@ jest-worker@^26.6.2:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-joycon@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.npm.taobao.org/joycon/download/joycon-2.2.5.tgz#8d4cf4cbb2544d7b7583c216fcdfec19f6be1615"
-  integrity sha1-jUz0y7JUTXt1g8IW/N/sGfa+FhU=
+joycon@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/joycon/download/joycon-3.0.1.tgz#9074c9b08ccf37a6726ff74a18485f85efcaddaf"
+  integrity sha1-kHTJsIzPN6Zyb/dKGEhfhe/K3a8=
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -3673,10 +3698,10 @@ tslib@^2.0.3:
   resolved "https://registry.nlark.com/tslib/download/tslib-2.2.0.tgz?cache=0&sync_timestamp=1618847132149&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha1-+yxHWXfjXiQTEe3iaTzuHsZpj1w=
 
-type-fest@^0.21.3:
-  version "0.21.3"
-  resolved "https://registry.nlark.com/type-fest/download/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
-  integrity sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc=
+type-fest@^1.0.1:
+  version "1.1.3"
+  resolved "https://registry.nlark.com/type-fest/download/type-fest-1.1.3.tgz#ea1a602e98e5a968a56a289886a52f04c686fc81"
+  integrity sha1-6hpgLpjlqWilaiiYhqUvBMaG/IE=
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
@@ -3778,15 +3803,15 @@ vue@^3.0.11:
     "@vue/runtime-dom" "3.0.11"
     "@vue/shared" "3.0.11"
 
-vuepress@^2.0.0-beta.12:
-  version "2.0.0-beta.12"
-  resolved "https://registry.nlark.com/vuepress/download/vuepress-2.0.0-beta.12.tgz?cache=0&sync_timestamp=1619773848512&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvuepress%2Fdownload%2Fvuepress-2.0.0-beta.12.tgz#0b9f21283f13a415f5fcae3a346dd15784625478"
-  integrity sha1-C58hKD8TpBX1/K46NG3RV4RiVHg=
+vuepress@^2.0.0-beta.14:
+  version "2.0.0-beta.14"
+  resolved "https://registry.nlark.com/vuepress/download/vuepress-2.0.0-beta.14.tgz#62f7634abbe2d10f0bc9f3a793104b7b9ac2ab0c"
+  integrity sha1-YvdjSrvi0Q8LyfOnkxBLe5rCqww=
   dependencies:
-    "@vuepress/bundler-webpack" "2.0.0-beta.12"
-    "@vuepress/cli" "2.0.0-beta.12"
-    "@vuepress/core" "2.0.0-beta.12"
-    "@vuepress/theme-default" "2.0.0-beta.12"
+    "@vuepress/bundler-webpack" "2.0.0-beta.14"
+    "@vuepress/cli" "2.0.0-beta.14"
+    "@vuepress/core" "2.0.0-beta.14"
+    "@vuepress/theme-default" "2.0.0-beta.14"
 
 watchpack@^2.0.0:
   version "2.1.1"
