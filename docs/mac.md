@@ -14,3 +14,7 @@ mac sourcetree 添加账号
 ![image-20210522092440811](https://cdn.jsdelivr.net/gh/seasideccm/img/macUpload/20210522092440.png)
 
 ![image-20210522092507103](https://cdn.jsdelivr.net/gh/seasideccm/img/macUpload/20210522092507.png)
+
+![image-20210522100440459](https://cdn.jsdelivr.net/gh/seasideccm/img/macUpload/20210522100440.png)
+
+![image-20210522101000590](https://cdn.jsdelivr.net/gh/seasideccm/img/macUpload/20210522101000.png)
