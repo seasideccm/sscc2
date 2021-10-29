@@ -55,7 +55,8 @@ export const zh: SidebarConfig = {
         '/bloodflow/readme.md',
         '/bloodflow/blood flow.md',
         '/bloodflow/Regional perfusion monitoring in shock.md',
-        '/bloodflow/Microstructure and cerebral blood flow changes in patients recovered from COVID 19.md',
+        '/bloodflow/Microstructure and cerebral blood flow changes in patients recovered from COVID 19.md','/bloodflow/Hemodynamic Monitoring and Support.md',
+		
       ],
     },
     ],

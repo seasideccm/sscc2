@@ -52,6 +52,7 @@ export const en: SidebarConfig = {
 		'/en/bloodflow/blood flow.md',
         '/en/bloodflow/Regional perfusion monitoring in shock.md',
 		'/en/bloodflow/Microstructure and cerebral blood flow changes in patients recovered from COVID 19.md',
+		'/en/bloodflow/Hemodynamic Monitoring and Support.md',
       ],
     },
 	],
